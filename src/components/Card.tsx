@@ -1,6 +1,6 @@
 import { Channel } from "phoenix";
 import { useEffect, useState, useContext } from "react";
-import { CoinSymbols } from "../App";
+import { CoinSymbols } from "../coins";
 import SocketContext from "../context/SocketContext";
 import usePrevious from "../hooks/usePrevious";
 
